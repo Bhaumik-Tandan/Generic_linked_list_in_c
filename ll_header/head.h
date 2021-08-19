@@ -15,5 +15,5 @@ void* dispe(node **h,short p)
 {
     #include "get.h"
    #include "disp_route.h"
-    return disp_r(get(*h,p),1);
+    return disp_r(get(*h,p),2);
 }
