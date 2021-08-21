@@ -6,6 +6,21 @@ concept of polymorphism in C with the help of void and
 function pointer. It also helps us to understand that  how
 can we create a hetrogeneous array in C.
 
+# Sample code
+```
+#include <ll.h>
+main()
+{
+   node *h;
+   l_in(&h);
+   ins(&h,77,0);
+   menu(&h);
+   del(&h,2);
+} 
+```
+![image](https://user-images.githubusercontent.com/62440699/130314459-f9407c9f-22ee-4ab9-b978-15e6624635a2.png)
+![image](https://user-images.githubusercontent.com/62440699/130314466-97b92b6b-5bd4-4b2b-81cf-e9deb27152fd.png)
+![image](https://user-images.githubusercontent.com/62440699/130314473-00132a13-8c43-41ab-9ca9-93e68b9c997e.png)
 
 
 ## Documentation
