@@ -242,7 +242,7 @@ from the list as  per the situation.
 ### menu_fun.h
 In the menu mode we need to display some intermediatary messages,
 and we need to cutomise the output, so for this purpose menu has
-these functions as buffer to interact with the stack.
+these functions as buffer to interact with the list.
 
 
 ## ll.h
@@ -251,7 +251,7 @@ All the nessesary header files are included in this file,
 functions in which will be used by the user
 
 
-The l_in function initilises the initial values of the queue
+The l_in function initilises the initial values of the list
 
 And the menu function displays the menu, and calls the function
 from the function pointer.
